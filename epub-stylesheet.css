@@ -5,7 +5,32 @@ body {
   font-size: medium;
 }
 code {
-  font-family: monospace;
+  	font-family: "Ubuntu Mono", monospace;
+}
+pre {
+
+	padding: 1em;
+	border-top: 1px dotted #BFBFBF;
+	border-bottom: 1px dotted #BFBFBF;
+	transition: all 100ms ease-in 0s;
+
+  	white-space: pre-wrap;
+  	font-family: "Ubuntu Mono", monospace;
+  	margin: 25px 0 25px 20px;
+  	font-size: 85%;
+  	display: block;
+  	-webkit-hyphens: none;
+  	hyphens: none;
+	adobe-hyphenate: none;
+}
+
+.ghci{
+
+	background-color: Gainsboro;
+}
+img {
+    float: right;
+    margin: 8px;
 }
 h1 {
   text-align: left;
