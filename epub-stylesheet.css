@@ -1,9 +1,4 @@
 /* This defines styles and classes used in the book */
-body {
-  margin: 5%;
-  text-align: justify;
-  font-size: medium;
-}
 code {
   	font-family: "Ubuntu Mono", monospace;
 }
@@ -23,14 +18,22 @@ pre {
   	hyphens: none;
 	adobe-hyphenate: none;
 }
+.caption{
+    display: none;
+}
 
 .ghci{
 
 	background-color: Gainsboro;
 }
-img {
+div.figure {
     float: right;
     margin: 8px;
+    display: block
+}
+div.figure > .caption {
+   text-align: center;
+   font-style: italic;
 }
 h1 {
   text-align: left;
@@ -62,4 +65,58 @@ ol.toc li {
 pre {
   white-space: pre-wrap;
   /* CSS 3 */
+}
+
+
+/* keep this body statement last before custom placeholder */
+
+body {
+  font-family: serif, "DejaVuSerif";
+  text-align: left;
+}
+
+/* Placeholder for custom series CSS: DO NOT EDIT OR DELETE */
+
+/* fonts (keep at bottom); using DejaVu Serif and Sans as a fallback for its rich set of glyphs */
+
+@font-face {
+  font-family: "DejaVuSerif";
+  font-style: normal;
+  font-weight: normal;
+  src: url('res:///Fonts/DejaVuSerif.otf');
+}
+
+@font-face {
+  font-family: "DejaVuSans";
+  font-style: bold;
+  font-weight: normal;
+  src: url('res:///Fonts/DejaVuSans-Bold.otf');
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-weight: normal;
+  font-style: normal;
+  src: url('res:///Fonts/UbuntuMono-Regular.otf');
+}
+
+@font-face {
+  font-family: "Ubuntu Mono Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url('res:///Fonts/UbuntuMono-Bold.otf');
+}
+
+@font-face {
+  font-family: "Ubuntu Mono BoldItal";
+  font-weight: bold;
+  font-style: italic;
+  src: url('res:///Fonts/UbuntuMono-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: "Ubuntu Mono Ital";
+  font-weight: normal;
+  font-style: italic;
+  src: url('res:///Fonts/UbuntuMono-Italic.otf');
 }
