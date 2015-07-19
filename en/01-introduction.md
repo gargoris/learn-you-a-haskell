@@ -44,8 +44,9 @@ you to think differently, which brings us to the next section …
 So what's Haskell?
 ------------------
 
-![fx](img/fx.png) Haskell is a *purely
-functional programming language*. In imperative languages you get things
+![fx](img/fx.png)
+
+Haskell is a *purely functional programming language*. In imperative languages you get things
 done by giving the computer a sequence of tasks and then it executes
 them. While executing them, it can change state. For instance, you set
 variable a to 5 and then do some stuff and then set it to something
@@ -68,7 +69,9 @@ reason about the program's behavior, but it also allows you to easily
 deduce (and even prove) that a function is correct and then build more
 complex functions by gluing simple functions together.
 
-![lazy](img/lazy.png) Haskell is *lazy*. That
+![lazy](img/lazy.png)
+
+Haskell is *lazy*. That
 means that unless specifically told otherwise, Haskell won't execute
 functions and calculate things until it's really forced to show you a
 result. That goes well with referential transparency and it allows you
@@ -92,7 +95,9 @@ way when you want something from a lazy language you can just take some
 initial data and efficiently transform and mend it so it resembles what
 you want at the end.
 
-![boat](img/boat.png) Haskell is *statically
+![boat](img/boat.png)
+
+Haskell is *statically
 typed*. When you compile your program, the compiler knows which piece of
 code is a number, which is a string and so on. That means that a lot of
 possible errors are caught at compile time. If you try to add together a

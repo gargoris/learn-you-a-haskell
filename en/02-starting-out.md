@@ -4,7 +4,9 @@ Starting Out
 Ready, set, go!
 ---------------
 
-![egg](img/startingout.png) Alright, let's get
+![egg](img/startingout.png)
+
+Alright, let's get
 started! If you're the sort of horrible person who doesn't read
 introductions to things and you skipped it, you might want to read the
 last section in the introduction anyway because it explains what you
@@ -118,7 +120,9 @@ them. As you've seen, we call it by sandwiching it between them. This is
 what we call an *infix* function. Most functions that aren't used with
 numbers are *prefix* functions. Let's take a look at them.
 
-![phoen](img/ringring.png) Functions are
+![phoen](img/ringring.png)
+
+Functions are
 usually prefix so from now on we won't explicitly state that a function
 is of the prefix form, we'll just assume it. In most imperative
 languages functions are called by writing the function name and then
@@ -310,7 +314,9 @@ O'Brien!" can be used interchangeably.
 An intro to lists
 -----------------
 
-![BUY A DOG](img/list.png) Much like shopping
+![BUY A DOG](img/list.png)
+
+Much like shopping
 lists in the real world, lists in Haskell are very useful. It's the most
 used data structure and it can be used in a multitude of different ways
 to model and solve a whole bunch of problems. Lists are SO awesome. In
@@ -580,7 +586,9 @@ look at more list functions [later](modules#data-list)
 Texas ranges
 ------------
 
-![draw](img/cowboy.png) What if we want a list
+![draw](img/cowboy.png)
+
+What if we want a list
 of all numbers between 1 and 20? Sure, we could just type them all out
 but obviously that's not a solution for gentlemen who demand excellence
 from their programming languages. Instead, we'll use ranges. Ranges are
@@ -674,7 +682,9 @@ some number of the same element in a list. replicate 3 10 returns
 I'm a list comprehension
 ------------------------
 
-![frog](img/kermit.png) If you've ever taken a
+![frog](img/kermit.png)
+
+If you've ever taken a
 course in mathematics, you've probably run into *set comprehensions*.
 They're normally used for building more specific sets out of general
 sets. A basic comprehension for a set that contains the first ten even
