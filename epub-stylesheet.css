@@ -18,18 +18,17 @@ pre {
   	hyphens: none;
 	adobe-hyphenate: none;
 }
-.caption{
-    display: none;
-}
 
 .ghci{
 
 	background-color: Gainsboro;
 }
+img {
+  display: inline-block;
+}
 div.figure {
     float: right;
-    margin: 8px;
-    display: block
+    margin: 1em;
 }
 div.figure > .caption {
    text-align: center;
